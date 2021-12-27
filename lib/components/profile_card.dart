@@ -56,7 +56,7 @@ class ProfileCard extends StatelessWidget {
         width: width,
         height: height,
         padding: const EdgeInsets.all(16),
-        child: Column(
+        child: ListView(
           children: [
             Padding(
               padding: const EdgeInsets.only(bottom: 16.0),

@@ -104,7 +104,10 @@ class _ProfilePageState extends State<ProfilePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset('images/welcome.png'),
+              Image.asset(
+                'images/welcome.png',
+                width: 200,
+              ),
               const Padding(
                 padding: EdgeInsets.symmetric(horizontal: 48.0, vertical: 16),
                 child: AppText(
